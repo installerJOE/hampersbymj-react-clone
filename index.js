@@ -1,0 +1,24 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import * as serviceWorker from './serviceWorker';
+import App from './App'
+import './mainStyle.css'
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();
+
+
+//Things to master
+//Learn higher order array methods in javascript => filter, map, sort, reduce, every, some, find, findindex
+//Become very famaliar with the use of ternary operations
+//video paused at 2:39:37
+
