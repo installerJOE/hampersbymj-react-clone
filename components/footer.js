@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import ContactInfo from './contactInfo'
-import AboutCompany from './aboutCompany'
+import AboutCompany from './AboutCompany/aboutCompany'
 import socials from './socialsAPI'
 import SocialMediaLink from './socials'
 

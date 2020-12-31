@@ -1,4 +1,4 @@
-const subAboutCompanyArr = [
+const subAboutCompanyAPI = [
   {
     id: "1",
     header: "About",
@@ -88,4 +88,4 @@ const subAboutCompanyArr = [
   }
 ]
 
-export default subAboutCompanyArr
+export default subAboutCompanyAPI
