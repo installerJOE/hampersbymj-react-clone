@@ -5,21 +5,30 @@ import SubAboutList from './subAboutList'
 class SubAboutCompany extends Component{
     
   render(){
-    console.log(this.props.aboutList)
-    const aboutCompanyBodyBlock = this.props.aboutList.body.map(item =>
-      <SubAboutList 
-        key={item.id}
-        list={item}
-      />
-    )
+    
+    let newArray = this.props.aboutList.body
+    
+    let aboutCompanyBodyBlock = !this.props.aboutList.inputField &&
+      newArray.map(item =>
+        <SubAboutList 
+          key={item.id}
+          list={item}
+        />
+      )
+   
     return(
-      <div className="col-lg-3 col-sm-3 col-md-3 col-xs-12">
-        <h1>
+      <div className="col-lg-3 col-sm-3 col-md-3 col-xs-12 about-company">
+        <h2>
           {this.props.aboutList.header}
-        </h1>
-        <ul>
-          {/* {aboutCompanyBodyBlock} */}
-        </ul>
+        </h2>
+        {
+          !this.props.aboutList.inputField ? 
+          <ul>{aboutCompanyBodyBlock}</ul> :
+          <div>
+            <input type="text" className="inputFields"/>
+            <p>{this.props.aboutList.body}</p>
+          </div>
+        }
       </div>
     )
   }

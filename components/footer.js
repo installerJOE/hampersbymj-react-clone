@@ -13,11 +13,15 @@ class Footer extends Component{
         <ContactInfo/>
         {/**Put other miscellaneous info about the company/website */}
         <AboutCompany/>
-        
+        {/* Import the social media icons */}
         <div className="footer-socials">
           <ul className="inline-ul">
             {socialMediaBlock}
           </ul>
+        </div>
+        {/* Copyright statement */}
+        <div style={{margin:"2em 0em"}}>
+          &copy;2020. All Rights Reserved
         </div>
       </div>
     )

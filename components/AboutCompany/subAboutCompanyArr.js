@@ -2,6 +2,7 @@ const subAboutCompanyAPI = [
   {
     id: "1",
     header: "About",
+    inputField: false,
     body: [
       {
         id:"1",
@@ -23,12 +24,12 @@ const subAboutCompanyAPI = [
         description: "Career",
         link: "/career"
       }
-    ],
-    inputField: false
+    ]
   },
   {
     id: "2",
     header: "Company",
+    inputField: false,
     body: [
       {
         id:"1",
@@ -50,12 +51,12 @@ const subAboutCompanyAPI = [
         description: "Press",
         link: "/press"
       }
-    ],
-    inputField: false
+    ]
   },
   {
     id: "3",
     header: "Resources",
+    inputField: false,
     body: [
       {
         id:"1",
@@ -77,14 +78,13 @@ const subAboutCompanyAPI = [
         description: "Career",
         link: "/career"
       }
-    ],
-    inputField: false
+    ]
   },
   {
     id: "4",
     header: "Subscribe",
-    body: "Subscribe to get notified on digital contents",
-    inputField: true
+    inputField: true,
+    body: "Subscribe to get notified on digital contents"
   }
 ]
 

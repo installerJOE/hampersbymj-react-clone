@@ -12,6 +12,9 @@ body{
 [class*="col-"]{
   float: left;
 }
+h2{
+  font-size: 25px
+}
 .links{
   text-decoration: none !important;
 }
@@ -55,7 +58,26 @@ ul{
 }
 .div-footer-contact-info{
   padding: 20px;
-  
+}
+.about-company{
+  text-align: left;
+}
+.about-company h2{
+  margin:0px;
+  padding:0.7em 0px 7px 0px;
+  font-weight:bold
+}
+.about-company li{
+  padding: 0.7em 0px;
+}
+.about-company li:hover{
+  color: #f76b6a;
+  cursor: pointer
+}
+.about-company ul{
+  list-style-type: none;
+  margin: 0px;
+  padding:0px
 }
 
 
