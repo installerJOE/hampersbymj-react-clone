@@ -24,8 +24,8 @@ class SubAboutCompany extends Component{
         {
           !this.props.aboutList.inputField ? 
           <ul>{aboutCompanyBodyBlock}</ul> :
-          <div>
-            <input type="text" className="inputFields"/>
+          <div className="col-12">
+            <input type="email" className="input-fields col-10"/>
             <p>{this.props.aboutList.body}</p>
           </div>
         }

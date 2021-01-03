@@ -37,6 +37,12 @@ ul{
   display: inline-block;
   padding: 0px 5px
 }
+.input-fields{
+  padding:8px 10px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  margin-bottom: 1.2em;
+}
 .nav-bar{
   padding: 10px;
   background-color: #f2f2f2;
@@ -58,13 +64,16 @@ ul{
 }
 .div-footer-contact-info{
   padding: 20px;
+  border-bottom: 1px solid white;
+  padding-bottom: 2em;
 }
 .about-company{
   text-align: left;
+  margin-top:-10px;
 }
 .about-company h2{
   margin:0px;
-  padding:0.7em 0px 7px 0px;
+  padding:0em 0px 7px 0px;
   font-weight:bold
 }
 .about-company li{
@@ -80,6 +89,31 @@ ul{
   padding:0px
 }
 
+/* Carousel/Slide show styling */
+.div-carousel{
+  height:80%;
+  width:100%;
+  display: block;
+  text-align:center;
+  padding:0px;
+  background-color: #22282e;
+}
+.div-carousel img{
+  height:400px;
+  margin:0px;
+}
+.carousel-ctrl{
+  padding:20px;
+  background-color:#fff;
+  box-shadow: 0px 5px 10px 5px rgba(0,0,0, 0.4);
+  -webkit-box-shadow: 0px 5px 10px 5px rgba(0,0,0, 0.4);
+  position: relative;
+  top: 150px;
+}
+.carousel-ctrl:hover{
+  cursor: pointer;
+  background-color: #d7d7d7;
+}
 
 
 
