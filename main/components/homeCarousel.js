@@ -23,23 +23,20 @@ class HomeCarousel extends Component{
     super()
     this.state = {
       isActive: 0,
-      breakInterval: false
+      autoSlide: false
     }
     this.handleCarouselMovement = this.handleCarouselMovement.bind(this)
   }
 
   componentDidMount(){
-    setInterval(() => this.handleCarouselMovement(true), 2000)
+    this.setAutoSlide()
   }
 
-  pauseAutomation(){
-
-  }
-  playAutomation(){
-    setInterval(() => this.handleCarouselMovement(true), 2000)
+  setAutoSlide(){
+    this.interval = setInterval(() => this.handleCarouselMovement(true, true), 4000)
   }
 
-  handleCarouselMovement(forward){
+  handleCarouselMovement(forward, auto){
     this.setState(prev => {
       // bring the next image on the slide show
       if(forward){
@@ -60,10 +57,16 @@ class HomeCarousel extends Component{
         }
       }
     })
+    if(!auto){
+      clearInterval(this.interval)
+      this.setAutoSlide()
+    }
+    else{}
   }
 
   render(){    
     let activeImg = slideImages[this.state.isActive]
+    
     return(
       <div className="col-12">
         <SubCarousel 

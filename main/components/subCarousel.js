@@ -8,7 +8,7 @@ function SubCarousel(props){
       <div 
         className="carousel-ctrl" 
         style={{float: "left", left: "30px"}} 
-        onClick={()=>props.handleClick(false)}
+        onClick={()=>props.handleClick(false, false)}
       > 
         &#10094; 
       </div>
@@ -20,7 +20,7 @@ function SubCarousel(props){
       <div 
         className="carousel-ctrl" 
         style={{float: "right", right: "30px"}} 
-        onClick={()=>props.handleClick(true)}
+        onClick={()=>props.handleClick(true, false)}
       > 
         &#10095; 
       </div>
