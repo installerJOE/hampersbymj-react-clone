@@ -68,7 +68,7 @@ class HomeCarousel extends Component{
     let activeImg = slideImages[this.state.isActive]
     
     return(
-      <div className="col-12">
+      <div className="col-12 left-clear">
         <SubCarousel 
           id={this.state.isActive + 1} 
           image={activeImg.url} 

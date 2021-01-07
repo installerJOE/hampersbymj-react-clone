@@ -2,15 +2,16 @@ import React, {Component} from 'react'
 import Header from './components/header'
 import Body from './main/body'
 import Footer from './components/footer'
+import {BrowserRouter as Router} from 'react-router-dom'
 
 class App extends Component{
   render(){   
     return(
-      <div>
+      <Router>
         <Header/>
         <Body/>
         <Footer/>
-      </div>
+      </Router>
     )
   }
 } 

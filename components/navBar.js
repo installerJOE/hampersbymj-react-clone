@@ -9,43 +9,50 @@ class NavBar extends Component{
         id: "1",
         name: "Logo",
         link: "/",
-        float: "left"
+        float: "left",
+        image: true
       },
       {
         id: "2",
         name: "Home",
         link: "/",
-        float: "left"
+        float: "left",
+        image: false
       },
       {
         id: "3",
         name: "Category",
         link: "/category",
-        float: "left"
+        float: "left",
+        image: false
       },
       {
         id: "4",
         name: "Blog",
         link: "/blog",
-        float: "left"
+        float: "left",
+        image: false
       },
       {
         id: "5",
         name: "About Us",
         link: "/about-us",
-        float: "left"
+        float: "left",
+        image: false
       },
       {
         id: "6",
         name: "Cart",
         link: "/cart",
-        float: "right"
+        float: "right",
+        image: false
       },
       {
         id: "7",
         name: "User",
         link: "/user",
-        float: "right"
+        float: "right",
+        image: false
       }
     ].map(list => <NavMenu key={list.id} navList={list}/>)
 

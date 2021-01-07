@@ -1,5 +1,5 @@
 body{
-  background-color: #d9d9d9;
+  background-color: #fff;
   width: 100% !important;
   height: 100% !important;
   padding: 0px !important;
@@ -11,6 +11,9 @@ body{
 }
 [class*="col-"]{
   float: left;
+}
+h1{
+  text-align: center;
 }
 h2{
   font-size: 25px
@@ -44,17 +47,24 @@ ul{
   margin-bottom: 1.2em;
 }
 .nav-bar{
-  padding: 10px;
+  padding: 5px;
   background-color: #f2f2f2;
-  padding:20px;
 }
-.nav-bar li{
-    padding: 0px 30px;
-    font-weight: bold
+.nav-menu{
+  padding: 10px 30px;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none !important;
+}
+.active-nav-menu, nav-menu:hover{
+  background-color: #a2a2a2
 }
 .body{
   padding: 30px;
   text-align:center
+}
+.left-clear{
+  clear: left
 }
 .footer{
   background-color:#22282e;
@@ -113,6 +123,42 @@ ul{
 .carousel-ctrl:hover{
   cursor: pointer;
   background-color: #d7d7d7;
+}
+.ruler{
+  width: 10%;
+  border: 1px solid #f76b6a;
+  background-color: #f76b6a;
+  margin: -10px 0px 2em 0px
+}
+.home-category-list{
+  background-color: #22282e;
+  color: white;
+  padding: 20px;
+  margin:3em 0em
+}
+.home-category{
+  padding: 10px;
+}
+.home-category > div:first-child{
+  padding:10px;
+  border-radius: 5px 0px 0px 5px;
+  color: #000;
+  background-color: #f7f7f7;
+}
+.home-category img{
+  border-radius: 0px 5px 5px 0px
+}
+.home-trendy-gifts{
+  display: flex;
+  overflow-x: auto;
+  padding: 0.5em 0em 2.5em 0em
+}
+.home-trendy-gifts h2{
+  font-size: 20px
+}
+.product-link{
+  color: black;
+  padding: 0px 10px
 }
 
 
