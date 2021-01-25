@@ -1,6 +1,6 @@
 import React from 'react'
 import HomeGiftCategory from './homeGiftCat'
-import trendyGiftArray from './trendyGiftArray'
+import productAPI from './productAPI'
 import giftCategoryArray from './giftCategoryArray'
 import HomeTrendyGift from './homeTrendyGift'
 
@@ -18,11 +18,16 @@ function HomeBlock(){
       category={category}
     />)
 
-  const trendyGiftBlock = trendyGiftArray.map(product =>
-    <HomeTrendyGift
-      key={product.id}
-      product={product}
-    />)
+  const trendyGiftBlock = productAPI.map(product =>{
+    const prodCatLink = product.categoryLink
+    const productBlock = product.product.map(prod => prod.trendy &&
+      <HomeTrendyGift 
+        key={prod.id} 
+        product={prod}
+        catLink={prodCatLink}
+      />)
+    return productBlock
+  })
 
   return(
     <div className="col-lg-11 col-sm-11 col-xs-12 col-md-11 left-clear" style={homeBlockStyle}>

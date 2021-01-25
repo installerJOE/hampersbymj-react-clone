@@ -7,6 +7,8 @@ import Cart from './cart'
 import User from './user'
 import {Route, Switch} from 'react-router-dom'
 import Product from './product'
+import ToDoList from './toDoList'
+
 
 class Body extends Component{
   render(){
@@ -19,6 +21,8 @@ class Body extends Component{
         <Route path={"/cart"} component={Cart}/>
         <Route path={"/user"} component={User}/>
         <Route path={"/product"} component={Product}/>
+        <Route path={"/to-do-list"} component={ToDoList}/>
+        
       </div>
     )
   }

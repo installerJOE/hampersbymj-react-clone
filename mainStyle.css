@@ -160,6 +160,32 @@ ul{
   color: black;
   padding: 0px 10px
 }
+/* To-do-list styling*/
+.div-to-do-list{
+  background-color: #fff;
+  margin:auto;
+  color: #000;
+  text-align: left;
+  padding:0px;
+  line-height: 2em;
+}
+.div-to-do-list h1{
+  color: #fff;
+  background-color: #f76b6a;
+  margin: 0px; padding: 15px;
+}
+.todos-block{
+  padding: 20px;
+}
+.todos-block ul{
+  list-style-type: none;
+}
+.todos-block li{
+  padding:15px 0px
+}
+.todos-block label{
+  cursor: pointer
+}
 
 
 

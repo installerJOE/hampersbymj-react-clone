@@ -53,6 +53,13 @@ class NavBar extends Component{
         link: "/user",
         float: "right",
         image: false
+      },
+      {
+        id: "8",
+        name: "To-Do-List",
+        link: "/to-do-list",
+        float: "left",
+        image: false
       }
     ].map(list => <NavMenu key={list.id} navList={list}/>)
 
