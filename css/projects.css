@@ -1,0 +1,22 @@
+.project-block p{
+    margin-top: 0px;
+    line-height: 1.4em;
+    text-align:left
+}
+.project-block h3{
+    color: #A9F8FD;
+    margin:15px 0px 5px 0px;
+    font-size: 24px;
+}
+.project-image{
+    height: 175px;
+    display: block;
+    background-color: #fff;
+}
+.project-block > div{
+    padding: 10px
+}
+.project-link:hover{
+    text-decoration: underline !important;
+    text-decoration-color: #fff !important;
+}

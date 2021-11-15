@@ -1,0 +1,13 @@
+footer{
+    background-color: #fff;
+    color: #727696;
+    padding: 2em 6em;
+    text-align:center
+}
+footer p{
+    color: #000;
+    /* font-size: 18px; */
+}
+.footer-link:hover{
+    color: #9ea5e9;
+}

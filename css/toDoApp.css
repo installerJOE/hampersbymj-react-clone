@@ -1,0 +1,59 @@
+.todo-app-block{
+    background-color: #fff;
+    color: #020d73;
+    padding: 10px 30px;
+    text-align: left;
+    border-radius: 10px;
+    overflow: auto;
+}
+.todo-app-block p{
+    color: #020d73;
+    font-size: 14px;
+    color: #727696;
+}
+h3{
+    font-size: 21px
+}
+.opening-project-div{
+    padding-top: 12em;
+    padding-bottom: 12em;
+    text-align:center;
+    background-color: rgba(2,13,115,1);
+}
+.todo-task{
+    padding: 10px;
+    overflow: auto;
+}
+.todo-task:hover{
+    cursor: pointer;
+    background-color: #f2f2f2;
+}
+.task-block-mainBody{
+    padding: 1.5em 0em
+}
+.task-block-mainBody > div{
+    border-bottom: 1px solid #9ea5e9;
+    border-radius: 5px;
+    margin: 1em 0em
+}
+.task-block-mainBody h2, .add-task-block h3{
+    font-size: 24px;
+    background-color: #9ea5e9;
+    color: #fff;
+    font-weight:bold;
+    padding: 10px;
+}
+.form-group{
+    margin-top: 1.4em;
+}
+.add-task-block{
+    padding: 25px;
+    border: 1.4px solid #9ea5e9;
+    border-radius: 10px;
+    overflow: auto;
+    margin-bottom: 6em;
+    margin-top:3em !important
+}
+.add-task-block h3{
+    font-size: 18px;
+}

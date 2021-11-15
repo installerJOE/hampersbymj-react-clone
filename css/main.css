@@ -1,0 +1,152 @@
+body{
+    padding:0px;
+    margin:0px;
+    /* background-color: #020D73 !important; */
+}
+.main{
+    font-family: Montserrat;
+    background-color: rgba(2,13,115,1);
+    overflow: auto;
+}
+p{
+    font-size: 21px;
+    margin-bottom: 1em;
+    color: #fff;
+}
+[class*="col-"]{
+    float:left;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+a:hover{
+    cursor: pointer;
+}
+.box-shadow{
+    border: 0px;
+    box-shadow: 0px 0.5px 4px #aaaaaa;
+    -webkit-box-shadow: 0px 0.5px 4px #aaaaaa;
+}
+
+/* Headers and their font-sizes */
+.xl-header{
+    font-size: 68px;
+    font-weight: bold;
+}
+.sub-header{
+    color: #A9F8FD;
+    padding: 5px 15px;
+    border-left: 8px solid #A9F8FD;
+    font-weight: bold;
+}
+.sub-sub-header{
+    color: #A9F8FD;
+}
+/* Text colors */
+.text-light-blue{
+    color: #A9F8FD;
+}
+
+/* Styling of mainbody */
+.opening-page-div{
+    padding-top: 12em;
+    text-align:center;
+    height: 100vh;
+    background-color: rgba(2,13,115,1);
+    /* background: linear-gradient(to bottom, rgba(2,13,115,1), rgba(2,13,115,0), rgba(2,13,115,1)); Standard */
+    /* background: -webkit-linear-gradient(top,rgba(2,13,115,1),rgba(2,13,115,0), rgba(2,13,115,1)); Safari 5.1-6 */
+}
+.opening-page-div .xl-header{
+    color: #A9F8FD;
+}
+.circled-div{
+    border-radius: 50%;
+} 
+.btn-blue-bd{
+    border: 1px solid #9ea5e9;
+    background-color: rgba(0,0,0,0);
+    color: #9ea5e9;
+}
+.btn-blue-bd:hover{
+    background-color: #9ea5e9;
+    color: #fff;
+}
+.btn-blue-bg{
+    border: 1px solid #9ea5e9;
+    background-color: #9ea5e9;
+    color: #fff;
+}
+.btn-blue-bg:hover{
+    background-color: rgba(0,0,0,0);
+    color: #9ea5e9;
+}
+.btn-danger-bd{
+    border: 1px solid rgb(204, 82, 82);
+    background-color: rgba(0,0,0,0);
+    color: rgb(204, 82, 82);
+}
+.btn-danger-bd:hover{
+    background-color: rgb(204, 82, 82);
+    color: #fff;
+}
+.stat-card{
+    padding: 10px;
+    text-align:center;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+.stat-card:hover{
+    cursor: pointer;
+    transform: scale(1.045)
+}
+.stat-card > div{
+    padding: 3em 15px;
+}
+.stat-card p{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 16px
+}
+
+
+
+@media only screen and (max-width: 767px){
+    
+    
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .col-md-1 {width: 8.33%;}
+   .col-md-2 {width: 16.66%;}
+   .col-md-3 {width: 25%;}
+   .col-md-4 {width: 33.33%;}
+   .col-md-5 {width: 41.66%;}
+   .col-md-6 {width: 50%;}
+   .col-md-7 {width: 58.33%;}
+   .col-md-8 {width: 66.66%;}
+   .col-md-9 {width: 75%;}
+   .col-md-10 {width: 83.33%;}
+   .col-md-11 {width: 91.66%;}
+   .col-md-12 {width: 100%;}
+  
+  
+   /*End of styling*/
+  }
+  @media only screen and (min-width: 1200px) {
+   .col-lg-1 {width: 8.33%;}
+   .col-lg-2 {width: 16.66%;}
+   .col-lg-3 {width: 25%;}
+   .col-lg-4 {width: 33.33%;}
+   .col-lg-5 {width: 41.66%;}
+   .col-lg-6 {width: 50%;}
+   .col-lg-7 {width: 58.33%;}
+   .col-lg-8 {width: 66.66%;}
+   .col-lg-9 {width: 75%;}
+   .col-lg-10 {width: 83.33%;}
+   .col-lg-11 {width: 91.66%;}
+   .col-lg-12 {width: 100%;}
+  
+}

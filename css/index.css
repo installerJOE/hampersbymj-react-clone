@@ -1,0 +1,29 @@
+.sub-divs{
+    background-color: rgba(2,13,115,1);
+    overflow: auto;
+    padding: 5em 10em
+}
+.sub-divs p{
+    font-size: 16px;
+    text-align: justify;
+    margin-top:1.5em;
+    line-height: 1.8em;
+}
+.passport{
+    border-radius: 50%;
+    padding: 10px;
+    border-right: 2px solid #A9F8FD;
+    border-left: 2px solid #A9F8FD;
+    border-top: 0px;
+    border-bottom: 0px;
+    transform: rotate(45deg); 
+    z-index: 0;
+}
+.passport > img{
+    border-radius: 50%;
+    transform: rotate(-45deg); 
+}
+.home-about > div:nth-child(2){
+    padding: 0px 25px;
+    color: rgb(2, 88, 145);
+}

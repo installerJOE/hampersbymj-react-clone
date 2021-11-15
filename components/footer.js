@@ -1,34 +1,27 @@
-import React, {Component} from 'react'
-import ContactInfo from './contactInfo'
-import AboutCompany from './AboutCompany/aboutCompany'
-import socials from './socialsAPI'
-import SocialMediaLink from './socials'
+import React from "react";
+import '../css/footer.css'
 
-class Footer extends Component{
-  render(){
-    const socialMediaBlock = socials.map(name => <SocialMediaLink key={name.id} socialMedia={name}/>)
-    return(
-      <div className="col-12 footer">
-        {/**Put in the contact information of the company/website owner */}
-        <ContactInfo/>
-        
-        {/**Put other miscellaneous info about the company/website */}
-        <AboutCompany/>
-        
-        {/* Import the social media icons */}
-        <div className="footer-socials">
-          <ul className="inline-ul">
-            {socialMediaBlock}
-          </ul>
-        </div>
-        
-        {/* Copyright statement */}
-        <div style={{margin:"2em 0em"}}>
-          &copy;2020. All Rights Reserved
-        </div>
-      </div>
-    )
-  }
+function Footer(){
+  return(
+    <footer>
+      <p>
+      &copy; Copyright 2021. Devijo Developer Portfolio Website
+      </p>
+      <p>
+        <a className="footer-link">
+          <span>LinkedIn</span> &nbsp;
+        </a>
+        <a className="footer-link">
+          <span>GitHub</span> &nbsp;
+        </a>
+        <a className="footer-link">
+          <span>Twitter</span> &nbsp;
+        </a>
+        <a className="footer-link">
+          <span>Instagram</span> &nbsp;
+        </a>
+      </p>
+    </footer>
+  )
 }
-
 export default Footer

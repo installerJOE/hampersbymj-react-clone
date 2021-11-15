@@ -1,0 +1,39 @@
+.side-menu-list, .menu-div-content{
+    height: 100%;
+    background-color: rgb(2, 8, 63);
+    position: fixed;
+    padding: 10em 20px;
+    color: #fff;
+    overflow: auto;
+}
+#menuDivContent{
+    background-color: #f2f2f2;
+    right:0px;
+    color: #000
+}
+.side-menu-list li{
+    list-style-type: none;
+}
+#sideMenuList .nav-link{
+    padding: 15px 20px;
+}
+#sideMenuList .nav-link:hover{
+    background-color: rgb(2, 12, 105);
+}
+#menuDivContent p{
+    color: #000
+}
+.dashboard-header{
+    padding: 20px;
+    background-color: #e9e9e9;
+    border-radius: 5px;
+    color: rgb(2, 88, 145);
+    font-weight: bold;
+}
+.bg-peach{
+    background-color: #d9d9d9;
+}
+.bg-light-blue{
+    background-color: #b6bcf8;
+    color: rgb(2, 11, 92);
+}
